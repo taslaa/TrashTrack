@@ -20,6 +20,7 @@
         public Photo? ProfilePhoto { get; set; }
 
         public ICollection<Notification>? Notifications { get; set; }
-        public ICollection<Vehicle> Driver { get; set; } = null!;
+        public ICollection<Feedback> Feedbacks { get; set; } = null!;
+        public ICollection<UserVehicle> UserVehicles { get; set; } = null!;
     }
 }

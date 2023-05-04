@@ -5,7 +5,7 @@
         public string Note { get; set; } = null!;
         public ReportState ReportState { get; set; }
 
-        public int TypeId { get; set; }
+        public int ReportTypeId { get; set; }
         public ReportType ReportType { get; set; } = null!;
 
         public int ReporterUserId { get; set; }

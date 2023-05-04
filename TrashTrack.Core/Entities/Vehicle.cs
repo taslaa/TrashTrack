@@ -8,12 +8,9 @@
         public int ManufactureYear { get; set; }
         public int Capacity { get; set; }
 
-        public int UserId { get; set; }
-        public User User { get; set; } = null!;
-
         public int VehicleModelId { get; set; }
         public VehicleModel VehicleModel { get; set; } = null!;
 
-        public ICollection<Schedule> Schedules { get; set; } = null!;
+        public ICollection<UserVehicle> UserVehicles { get; set; } = null!;
     }
 }

@@ -8,6 +8,7 @@
         public int LocationId { get; set; }
         public Location Location { get; set; } = null!;
 
+        public ICollection<Photo>? Photos { get; set; }
         public ICollection<Schedule> Schedules { get; set; } = null!;
     }
 }
