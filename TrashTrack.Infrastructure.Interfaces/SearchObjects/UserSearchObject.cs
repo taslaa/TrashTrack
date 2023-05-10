@@ -1,4 +1,4 @@
-﻿namespace RideWithMe.Infrastructure.Interfaces
+﻿namespace TrashTrack.Infrastructure.Interfaces
 {
     public class UserSearchObject : BaseSearchObject
     {

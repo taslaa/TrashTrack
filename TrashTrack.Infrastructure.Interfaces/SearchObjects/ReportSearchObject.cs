@@ -1,6 +1,6 @@
-﻿using RideWithMe.Core;
+﻿using TrashTrack.Core;
 
-namespace RideWithMe.Infrastructure.Interfaces
+namespace TrashTrack.Infrastructure.Interfaces
 {
     public class ReportSearchObject : BaseSearchObject
     {

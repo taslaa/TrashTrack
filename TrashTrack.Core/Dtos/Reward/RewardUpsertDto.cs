@@ -1,6 +1,6 @@
 ﻿namespace TrashTrack.Core
 {
-    public class RewardUpsertDto
+    public class RewardUpsertDto : BaseUpsertDto
     {
         public string Name { get; set; } = null!;
         public string Description { get; set; } = null!;
