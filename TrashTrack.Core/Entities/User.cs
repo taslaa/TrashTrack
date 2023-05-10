@@ -21,6 +21,9 @@
 
         public ICollection<Notification>? Notifications { get; set; }
         public ICollection<Feedback> Feedbacks { get; set; } = null!;
+        public ICollection<UserReward> UserRewards { get; set; } = null!;
         public ICollection<UserVehicle> UserVehicles { get; set; } = null!;
+        public ICollection<Report> MyReports { get; set; } = null!;
+        public ICollection<Report> Reports { get; set; } = null!;
     }
 }
