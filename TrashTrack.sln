@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrashTrack.Core", "TrashTrack.Core\TrashTrack.Core.csproj", "{80CB0053-B44F-47FF-9CDD-2F1C4CD1247A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrashTrack.Infrastructure.Interfaces", "TrashTrack.Infrastructure.Interfaces\TrashTrack.Infrastructure.Interfaces.csproj", "{46F6781E-FD30-4E93-B914-76A8B41C056C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{80CB0053-B44F-47FF-9CDD-2F1C4CD1247A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80CB0053-B44F-47FF-9CDD-2F1C4CD1247A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80CB0053-B44F-47FF-9CDD-2F1C4CD1247A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F6781E-FD30-4E93-B914-76A8B41C056C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F6781E-FD30-4E93-B914-76A8B41C056C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F6781E-FD30-4E93-B914-76A8B41C056C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F6781E-FD30-4E93-B914-76A8B41C056C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
