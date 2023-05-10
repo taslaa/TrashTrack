@@ -1,6 +1,6 @@
 ﻿namespace TrashTrack.Core
 {
-    internal class NotificationUpsertDto : BaseUpsertDto
+    public class NotificationUpsertDto : BaseUpsertDto
     {
         public DateTime DateSent { get; set; }
         public string Message { get; set; } = null!;

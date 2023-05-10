@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrashTrack.Core", "TrashTra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrashTrack.Infrastructure.Interfaces", "TrashTrack.Infrastructure.Interfaces\TrashTrack.Infrastructure.Interfaces.csproj", "{46F6781E-FD30-4E93-B914-76A8B41C056C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrashTrack.Common.Services", "TrashTrack.Common.Services\TrashTrack.Common.Services.csproj", "{4F74FDD3-FF9F-4FFA-B51D-14963BFCDC3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrashTrack.Application.Interfaces", "TrashTrack.Application.Interfaces\TrashTrack.Application.Interfaces.csproj", "{C42C5529-0933-4C75-A735-E79B46B9EFE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{46F6781E-FD30-4E93-B914-76A8B41C056C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46F6781E-FD30-4E93-B914-76A8B41C056C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46F6781E-FD30-4E93-B914-76A8B41C056C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F74FDD3-FF9F-4FFA-B51D-14963BFCDC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F74FDD3-FF9F-4FFA-B51D-14963BFCDC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F74FDD3-FF9F-4FFA-B51D-14963BFCDC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F74FDD3-FF9F-4FFA-B51D-14963BFCDC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42C5529-0933-4C75-A735-E79B46B9EFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42C5529-0933-4C75-A735-E79B46B9EFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42C5529-0933-4C75-A735-E79B46B9EFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42C5529-0933-4C75-A735-E79B46B9EFE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

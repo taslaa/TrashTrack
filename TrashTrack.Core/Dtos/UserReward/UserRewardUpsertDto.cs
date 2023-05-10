@@ -1,6 +1,6 @@
 ﻿namespace TrashTrack.Core
 {
-    public class UserRewardUpsertDto : BaseDto
+    public class UserRewardUpsertDto : BaseUpsertDto
     {
         public DateTime DateEarned { get; set; }
 
