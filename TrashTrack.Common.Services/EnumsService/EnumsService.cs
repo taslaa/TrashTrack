@@ -1,6 +1,6 @@
-﻿using RideWithMe.Core;
+﻿using TrashTrack.Core;
 
-namespace RideWithMe.Common.Services
+namespace TrashTrack.Common.Services
 {
     public class EnumsService : IEnumsService
     {

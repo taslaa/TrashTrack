@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 
-namespace RideWithMe.Shared.Services
+namespace TrashTrack.Shared.Services
 {
     public class CryptoService : ICryptoService
     {

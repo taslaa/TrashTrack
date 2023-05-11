@@ -1,4 +1,4 @@
-﻿namespace RideWithMe.Common.Services
+﻿namespace TrashTrack.Common.Services
 {
     public interface IEnumsService
     {

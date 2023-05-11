@@ -1,4 +1,4 @@
-﻿namespace RideWithMe.Shared.Services
+﻿namespace TrashTrack.Shared.Services
 {
     public interface ICryptoService
     {

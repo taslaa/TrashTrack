@@ -2,7 +2,7 @@
 
 namespace TrashTrack.Infrastructure.Interfaces
 {
-    public interface IReportTypesRepository : IBaseRepository<ReportType, int, BaseSearchObject>
+    public interface IReportTypesRepository : IBaseRepository<ReportType, int, ReportTypeSearchObject>
     {
     }
 }

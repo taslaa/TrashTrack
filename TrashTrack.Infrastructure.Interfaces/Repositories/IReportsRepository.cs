@@ -2,8 +2,9 @@
 
 namespace TrashTrack.Infrastructure.Interfaces
 {
-    public interface IReportsRepository : IBaseRepository<Report, int, BaseSearchObject>
+    public interface IReportsRepository : IBaseRepository<Report, int, ReportSearchObject>
     {
+        Task<int> GetCountByReportStateAsync(ReportState reportState, CancellationToken cancellationToken = default);
     }
 }
 
