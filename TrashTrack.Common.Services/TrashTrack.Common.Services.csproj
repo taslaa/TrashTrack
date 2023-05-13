@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="7.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TrashTrack.Core\TrashTrack.Core.csproj" />
+  </ItemGroup>
+
 </Project>

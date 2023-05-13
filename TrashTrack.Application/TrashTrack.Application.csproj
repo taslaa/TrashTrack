@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrashTrack.Application.Interfaces\TrashTrack.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\TrashTrack.Common.Services\TrashTrack.Common.Services.csproj" />
+    <ProjectReference Include="..\TrashTrack.Core\TrashTrack.Core.csproj" />
+    <ProjectReference Include="..\TrashTrack.Infrastructure\TrashTrack.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

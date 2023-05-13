@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrashTrack.Common.Services"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrashTrack.Application.Interfaces", "TrashTrack.Application.Interfaces\TrashTrack.Application.Interfaces.csproj", "{C42C5529-0933-4C75-A735-E79B46B9EFE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrashTrack.Infrastructure", "TrashTrack.Infrastructure\TrashTrack.Infrastructure.csproj", "{4B0F76A8-0578-4D78-857C-8EF7F51DD738}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrashTrack.Infrastructure", "TrashTrack.Infrastructure\TrashTrack.Infrastructure.csproj", "{4B0F76A8-0578-4D78-857C-8EF7F51DD738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrashTrack.Application", "TrashTrack.Application\TrashTrack.Application.csproj", "{6D6690DE-39FE-47A7-9665-74A662DCDC39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4B0F76A8-0578-4D78-857C-8EF7F51DD738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B0F76A8-0578-4D78-857C-8EF7F51DD738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B0F76A8-0578-4D78-857C-8EF7F51DD738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6690DE-39FE-47A7-9665-74A662DCDC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6690DE-39FE-47A7-9665-74A662DCDC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6690DE-39FE-47A7-9665-74A662DCDC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6690DE-39FE-47A7-9665-74A662DCDC39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
