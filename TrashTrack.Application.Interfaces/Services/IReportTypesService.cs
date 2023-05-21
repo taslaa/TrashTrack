@@ -3,7 +3,7 @@ using TrashTrack.Infrastructure.Interfaces;
 
 namespace TrashTrack.Application.Interfaces
 {
-    public interface IReportTypesService : IBaseService<int, ReportTypeDto, ReportTypeUpsertDto, BaseSearchObject>
+    public interface IReportTypesService : IBaseService<int, ReportTypeDto, ReportTypeUpsertDto, ReportTypeSearchObject>
     {
 
     }

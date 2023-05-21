@@ -8,7 +8,7 @@ using TrashTrack.Infrastructure.Interfaces;
 
 namespace TrashTrack.Application
 {
-    public class CitiesService : BaseService<City, CityDto, CityUpsertDto, BaseSearchObject, ICitiesRepository>, ICitiesService
+    public class CitiesService : BaseService<City, CityDto, CityUpsertDto, CitiesSearchObject, ICitiesRepository>, ICitiesService
     {
         public CitiesService(IMapper mapper, IUnitOfWork unitOfWork, IValidator<CityUpsertDto> validator) : base(mapper, unitOfWork, validator)
         {
