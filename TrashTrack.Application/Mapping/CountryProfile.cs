@@ -8,7 +8,7 @@ namespace TrashTrack.Application
         {
             CreateMap<CountryDto, Country>().ReverseMap();
 
-            CreateMap<CountryUpsertDto, Country>();
+            CreateMap<CountryUpsertDto, Country>().ReverseMap();
         }
     }
 }

@@ -8,7 +8,14 @@ namespace TrashTrack.Application
         {
             CreateMap<UserDto, User>().ReverseMap();
 
-            CreateMap<UserUpsertDto, User>();
+            CreateMap<User, UserSensitiveDto>();
+
+            CreateMap<UserDto, UserUpsertDto>();
+
+            CreateMap<UserUpsertDto, User>()
+                .ForMember(u => u.Role, o => o.Condition(s => s.Role != null))
+                  .ForMember(u => u.IsVerified, o => o.MapFrom(s => true))
+                  .ForMember(u => u.IsActive, o => o.MapFrom(s => true));
         }
     }
 }

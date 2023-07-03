@@ -44,8 +44,9 @@ namespace TrashTrack.Application
             services.AddScoped<IValidator<VehicleModelUpsertDto>, VehicleModelValidator>();
             services.AddScoped<IValidator<ReportTypeUpsertDto>, ReportTypeValidator>();
             services.AddScoped<IValidator<ReportUpsertDto>, ReportValidator>();
-            services.AddScoped<IValidator<RewardUpsertDto>, RewardValidator>();
+            services.AddScoped<IValidator<UserRewardUpsertDto>, UserRewardValidator>();
             services.AddScoped<IValidator<VehicleUpsertDto>, VehicleValidator>();
+            services.AddScoped<IValidator<UserChangePasswordDto>, UserPasswordValidator>();
 
             // TODO: Add other validators
         }

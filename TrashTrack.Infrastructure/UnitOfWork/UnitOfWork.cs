@@ -64,6 +64,7 @@ namespace TrashTrack.Infrastructure
             SchedulesRepository = schedulesRepository;
             UserRewardsRepository= userRewardsRepository;
             VehiclesRepository = vehiclesRepository;
+            PhotosRepository= photosRepository;
         }
 
         public async Task<IDbContextTransaction> BeginTransactionAsync(CancellationToken cancellationToken = default)
