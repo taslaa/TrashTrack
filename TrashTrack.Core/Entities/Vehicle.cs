@@ -11,6 +11,6 @@
         public int VehicleModelId { get; set; }
         public VehicleModel VehicleModel { get; set; } = null!;
 
-        public ICollection<UserVehicle> UserVehicles { get; set; } = null!;
+        public ICollection<Schedule> Schedules { get; set; } = null!;
     }
 }

@@ -15,12 +15,10 @@ namespace TrashTrack.Application
             services.AddScoped<IFeedbacksService, FeedbacksService>();
             services.AddScoped<IGarbagesService, GarbagesService>();
             services.AddScoped<IPhotosService, PhotosService>();
-            services.AddScoped<ILocationsService, LocationsService>();
             services.AddScoped<INotificationsService, NotificationsService>();
             services.AddScoped<IUsersService, UsersService>();
             services.AddScoped<IRewardsService, RewardsService>();
             services.AddScoped<ISchedulesService, SchedulesService>();
-            services.AddScoped<IUserVehiclesService, UserVehiclesService>();
             services.AddScoped<IUserRewardsService, UserRewardsService>();
             services.AddScoped<IVehicleModelsService, VehicleModelsService>();
             services.AddScoped<IReportsService, ReportsService>();
@@ -35,12 +33,10 @@ namespace TrashTrack.Application
             services.AddScoped<IValidator<FeedbackUpsertDto>, FeedbackValidator>();
             services.AddScoped<IValidator<GarbageUpsertDto>, GarbageValidator>();
             services.AddScoped<IValidator<PhotoUpsertDto>, PhotoValidator>();
-            services.AddScoped<IValidator<LocationUpsertDto>, LocationValidator>();
             services.AddScoped<IValidator<NotificationUpsertDto>, NotificationValidator>();
             services.AddScoped<IValidator<UserUpsertDto>, UserValidator>();
             services.AddScoped<IValidator<RewardUpsertDto>, RewardValidator>();
             services.AddScoped<IValidator<ScheduleUpsertDto>, ScheduleValidator>();
-            services.AddScoped<IValidator<UserVehicleUpsertDto>, UserVehicleValidator>();
             services.AddScoped<IValidator<VehicleModelUpsertDto>, VehicleModelValidator>();
             services.AddScoped<IValidator<ReportTypeUpsertDto>, ReportTypeValidator>();
             services.AddScoped<IValidator<ReportUpsertDto>, ReportValidator>();

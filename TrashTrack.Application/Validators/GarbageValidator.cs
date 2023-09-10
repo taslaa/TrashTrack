@@ -9,7 +9,6 @@ namespace TrashTrack.Application
         public GarbageValidator()
         {
             RuleFor(c => c.Description).NotEmpty().WithErrorCode(ErrorCodes.NotEmpty);
-            RuleFor(c => c.LocationId).NotNull().WithErrorCode(ErrorCodes.NotNull);
         }
     }
 }

@@ -12,13 +12,11 @@ namespace TrashTrack.Infrastructure
         public readonly ICitiesRepository CitiesRepository;
         public readonly IPhotosRepository PhotosRepository;
         public readonly IUsersRepository UsersRepository;
-        public readonly IUserVehiclesRepository UserVehiclesRepository;
         public readonly IVehicleModelsRepository VehicleModelsRepository;
         public readonly IReportsRepository ReportsRepository;
         public readonly IReportTypesRepository ReportTypesRepository;
         public readonly IFeedbacksRepository FeedbacksRepository;
         public readonly IGarbagesRepository GarbagesRepository;
-        public readonly ILocationsRepository LocationsRepository;
         public readonly INotificationsRepository NotificationsRepository;
         public readonly IRewardsRepository RewardsRepository;
         public readonly ISchedulesRepository SchedulesRepository;
@@ -32,13 +30,11 @@ namespace TrashTrack.Infrastructure
             ICitiesRepository citiesRepository,
             IPhotosRepository photosRepository,
             IUsersRepository usersRepository,
-            IUserVehiclesRepository userVehiclesRepository,
             IVehicleModelsRepository vehicleModelsRepository,
             IReportsRepository reportsRepository,
             IReportTypesRepository reportTypesRepository,
             IFeedbacksRepository feedbacksRepository,
             IGarbagesRepository garbagesRepository,
-            ILocationsRepository locationsRepository,
             INotificationsRepository notificationsRepository,
             IRewardsRepository rewardsRepository,
             ISchedulesRepository schedulesRepository,
@@ -51,13 +47,11 @@ namespace TrashTrack.Infrastructure
             CountriesRepository = countriesRepository;
             CitiesRepository = citiesRepository;
             UsersRepository = usersRepository;
-            UserVehiclesRepository = userVehiclesRepository;
             VehicleModelsRepository = vehicleModelsRepository;
             ReportsRepository = reportsRepository;
             ReportTypesRepository = reportTypesRepository;
             FeedbacksRepository = feedbacksRepository;
             GarbagesRepository = garbagesRepository;
-            LocationsRepository= locationsRepository;
             NotificationsRepository= notificationsRepository;
             RewardsRepository= rewardsRepository;
             SchedulesRepository= schedulesRepository;

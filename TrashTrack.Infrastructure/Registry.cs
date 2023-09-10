@@ -15,12 +15,10 @@ namespace TrashTrack.Infrastructure
             services.AddScoped<IReportTypesRepository, ReportTypesRepository>();
             services.AddScoped<IFeedbacksRepository, FeedbacksRepository>();
             services.AddScoped<IGarbagesRepository, GarbagesRepository>();
-            services.AddScoped<ILocationsRepository, LocationsRepository>();
             services.AddScoped<INotificationsRepository, NotificationsRepository>();
             services.AddScoped<IRewardsRepository, RewardsRepository> ();
             services.AddScoped<ISchedulesRepository, SchedulesRepository> ();
             services.AddScoped<IUserRewardsRepository, UserRewardsRepository> ();
-            services.AddScoped<IUserVehiclesRepository, UserVehiclesRepository> ();
             services.AddScoped<IVehicleModelsRepository, VehicleModelsRepository> ();
             services.AddScoped<IVehiclesRepository, VehiclesRepository> ();
 

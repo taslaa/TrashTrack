@@ -10,7 +10,8 @@ namespace TrashTrack.Application
         {
             RuleFor(r => r.PickupDate).NotNull().WithErrorCode(ErrorCodes.NotNull);
             RuleFor(r => r.GarbageId).NotNull().WithErrorCode(ErrorCodes.NotNull);
-            RuleFor(r => r.UserVehicleId).NotNull().WithErrorCode(ErrorCodes.NotNull);
+            RuleFor(r => r.UserId).NotNull().WithErrorCode(ErrorCodes.NotNull);
+            RuleFor(r => r.VehicleId).NotNull().WithErrorCode(ErrorCodes.NotNull);
         }
     }
 }

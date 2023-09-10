@@ -4,8 +4,7 @@
     {
         public string Description { get; set; } = null!;
         public GarbageType GarbageType { get; set; }
-
-        public int LocationId { get; set; }
-        public LocationDto Location { get; set; } = null!;
+        public decimal Latitude { get; set; }
+        public decimal Longitude { get; set; }
     }
 }

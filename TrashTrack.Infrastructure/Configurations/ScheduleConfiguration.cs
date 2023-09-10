@@ -20,10 +20,15 @@ namespace TrashTrack.Infrastructure
                    .HasForeignKey(e => e.GarbageId)
                    .IsRequired();
 
-            builder.HasOne(e => e.UserVehicle)
-                   .WithMany(e => e.Schedules)
-                   .HasForeignKey(e => e.UserVehicleId)
-                   .IsRequired();
+			builder.HasOne(e => e.Vehicle)
+				   .WithMany(e => e.Schedules)
+				   .HasForeignKey(e => e.VehicleId)
+				   .IsRequired();
+			
+			builder.HasOne(e => e.Driver)
+				   .WithMany(e => e.Schedules)
+				   .HasForeignKey(e => e.UserId)
+				   .IsRequired();
         }
     }
 }

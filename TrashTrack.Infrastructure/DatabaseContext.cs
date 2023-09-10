@@ -10,11 +10,9 @@ namespace TrashTrack.Infrastructure
         public DbSet<Photo> Photos { get; set; } = null!;
         public DbSet<Feedback> Feedbacks { get; set; } = null!;
         public DbSet<Garbage> Garbages { get; set; } = null!;
-        public DbSet<Location> Locations { get; set; } = null!;
         public DbSet<User> Users { get; set; } = null!;
         public DbSet<Notification> Notifications { get; set; } = null!;
         public DbSet<Reward> Rewards { get; set; } = null!;
-        public DbSet<UserVehicle> UserVehicles { get; set; } = null!;
         public DbSet<VehicleModel> VehicleModels { get; set; } = null!;
         public DbSet<Schedule> Schedules { get; set; } = null!;
         public DbSet<Report> Reports { get; set; } = null!;
